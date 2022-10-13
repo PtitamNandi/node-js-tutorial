@@ -1,0 +1,27 @@
+{
+  "name": "node-bitfumes",
+  "version": "1.0.0",
+  "description": "this is my nodejs tutorial",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PtitamNandi/node-js-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PtitamNandi/node-js-tutorial/issues"
+  },
+  "homepage": "https://github.com/PtitamNandi/node-js-tutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
