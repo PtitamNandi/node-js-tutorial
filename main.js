@@ -6,6 +6,7 @@ const PORT = 3000;
 const routes = require("./routes/index");
 const bodyParser = require("body-parser");
 const connectDB = require("./database/db");
+
 app.use(bodyParser.json());
 app.use(routes);
 
